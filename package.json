@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "vitnode-2",
   "private": true,
   "scripts": {
     "build": "turbo build",
