@@ -9,7 +9,7 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "target": "ES2021",
-    "outDir": "./dist",
+    "outDir": "./dist/src",
     "jsx": "react-jsx",
     "baseUrl": "./",
     "incremental": true,
@@ -22,5 +22,6 @@
     "paths": {
       "@/*": ["./src/*"]
     }
-  }
+  },
+  "include": ["src/**/*"]
 }
