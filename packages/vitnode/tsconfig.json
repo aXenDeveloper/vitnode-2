@@ -10,6 +10,7 @@
     "allowSyntheticDefaultImports": true,
     "target": "ES2021",
     "outDir": "./dist",
+    "jsx": "react-jsx",
     "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
@@ -19,7 +20,7 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     }
   }
 }
